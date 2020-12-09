@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mousemove 3D Parallax</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img src="electric.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Electric guitar</h2>
+                <p>An electric guitar is a guitar that requires external amplification in order to be heard at typical
+                    performance volumes. It uses one or more pickups to convert the vibration of its strings into
+                    electrical signals, which ultimately are reproduced as sound by loudspeakers.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="electric.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Electric guitar</h2>
+                <p>An electric guitar is a guitar that requires external amplification in order to be heard at typical
+                    performance volumes. It uses one or more pickups to convert the vibration of its strings into
+                    electrical signals, which ultimately are reproduced as sound by loudspeakers.</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".box"), {
+                max: 25,
+                speed: 400
+            });
+        </script>
+    </div>
+</body>
+
+</html>
